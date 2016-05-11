@@ -1,0 +1,2262 @@
+!SESSION 2016-04-19 16:12:04.228 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_77
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.net 1 0 2016-04-19 16:12:46.215
+!MESSAGE System property http.proxyHost is set to llwcfproxy.londonlife.bz but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2016-04-19 16:12:46.215
+!MESSAGE System property http.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2016-04-19 16:12:46.231
+!MESSAGE System property http.proxyHost is set to llwcfproxy.londonlife.bz but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2016-04-19 16:12:46.231
+!MESSAGE System property http.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-04-19 16:12:46.855
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-04-19 16:12:46.855
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'M:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-19 16:15:20.513
+!MESSAGE No repository found at http://vaadin.com/eclipse/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-19 16:15:34.930
+!MESSAGE No repository found at http://vaadin.com/eclipse/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-19 16:16:27.579
+!MESSAGE No repository found at http://vaadin.com/eclipse/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-19 16:16:36.506
+!MESSAGE No repository found at http://vaadin.com/eclipse/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-19 16:17:15.382
+!MESSAGE No repository found at http://vaadin.com/eclipse/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-19 16:18:04.709
+!MESSAGE No repository found at http://vaadin.com/eclipse/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-19 16:18:24.039
+!MESSAGE No repository found at http://vaadin.com/eclipse/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-19 16:18:24.039
+!MESSAGE No repository found at http://vaadin.com/eclipse/.
+
+!ENTRY org.eclipse.ui 4 0 2016-04-19 16:18:24.039
+!MESSAGE Error occurred during status handling
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.updateProfileChangeOperation(MarketplaceWizard.java:620)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.getNextPage(MarketplaceWizard.java:249)
+	at org.eclipse.epp.internal.mpc.ui.wizards.FeatureSelectionWizardPage.getNextPage(FeatureSelectionWizardPage.java:353)
+	at org.eclipse.epp.internal.mpc.ui.wizards.FeatureSelectionWizardPage.getNextPage(FeatureSelectionWizardPage.java:358)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:908)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:428)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:628)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.showStatusAdapter(WorkbenchErrorHandler.java:107)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.handle(WorkbenchErrorHandler.java:57)
+	at org.eclipse.ui.internal.ide.IDEWorkbenchErrorHandler.handle(IDEWorkbenchErrorHandler.java:108)
+	at org.eclipse.ui.internal.WorkbenchErrorHandlerProxy.handle(WorkbenchErrorHandlerProxy.java:36)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:189)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:231)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.updateProfileChangeOperation(MarketplaceWizard.java:611)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.getNextPage(MarketplaceWizard.java:249)
+	at org.eclipse.epp.internal.mpc.ui.wizards.FeatureSelectionWizardPage.getNextPage(FeatureSelectionWizardPage.java:353)
+	at org.eclipse.epp.internal.mpc.ui.wizards.FeatureSelectionWizardPage.getNextPage(FeatureSelectionWizardPage.java:358)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:908)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:428)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:628)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:826)
+	at org.eclipse.jface.window.Window.open(Window.java:802)
+	at org.eclipse.epp.internal.mpc.ui.commands.MarketplaceWizardCommand.execute(MarketplaceWizardCommand.java:191)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceUrlHandler.triggerInstall(MarketplaceUrlHandler.java:149)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.proceedInstallation(MarketplaceDropAdapter.java:106)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter$2$1.run(MarketplaceDropAdapter.java:86)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.showStatusAdapter(WorkbenchErrorHandler.java:107)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.handle(WorkbenchErrorHandler.java:57)
+	at org.eclipse.ui.internal.ide.IDEWorkbenchErrorHandler.handle(IDEWorkbenchErrorHandler.java:108)
+	at org.eclipse.ui.internal.WorkbenchErrorHandlerProxy.handle(WorkbenchErrorHandlerProxy.java:36)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:189)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:231)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.updateProfileChangeOperation(MarketplaceWizard.java:611)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.getNextPage(MarketplaceWizard.java:249)
+	at org.eclipse.epp.internal.mpc.ui.wizards.FeatureSelectionWizardPage.getNextPage(FeatureSelectionWizardPage.java:353)
+	at org.eclipse.epp.internal.mpc.ui.wizards.FeatureSelectionWizardPage.getNextPage(FeatureSelectionWizardPage.java:358)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:908)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:428)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:628)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:826)
+	at org.eclipse.jface.window.Window.open(Window.java:802)
+	at org.eclipse.epp.internal.mpc.ui.commands.MarketplaceWizardCommand.execute(MarketplaceWizardCommand.java:191)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:290)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:243)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:224)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:167)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:499)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:850)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.handleWidgetSelection(HandledContributionItem.java:743)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.access$7(HandledContributionItem.java:727)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem$4.handleEvent(HandledContributionItem.java:662)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 0 2016-04-19 16:18:24.039
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.updateProfileChangeOperation(MarketplaceWizard.java:620)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.getNextPage(MarketplaceWizard.java:249)
+	at org.eclipse.epp.internal.mpc.ui.wizards.FeatureSelectionWizardPage.getNextPage(FeatureSelectionWizardPage.java:353)
+	at org.eclipse.epp.internal.mpc.ui.wizards.FeatureSelectionWizardPage.getNextPage(FeatureSelectionWizardPage.java:358)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:908)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:428)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:628)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:826)
+	at org.eclipse.jface.window.Window.open(Window.java:802)
+	at org.eclipse.epp.internal.mpc.ui.commands.MarketplaceWizardCommand.execute(MarketplaceWizardCommand.java:191)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceUrlHandler.triggerInstall(MarketplaceUrlHandler.java:149)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.proceedInstallation(MarketplaceDropAdapter.java:106)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter$2$1.run(MarketplaceDropAdapter.java:86)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.showStatusAdapter(WorkbenchErrorHandler.java:107)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.handle(WorkbenchErrorHandler.java:57)
+	at org.eclipse.ui.internal.ide.IDEWorkbenchErrorHandler.handle(IDEWorkbenchErrorHandler.java:108)
+	at org.eclipse.ui.internal.WorkbenchErrorHandlerProxy.handle(WorkbenchErrorHandlerProxy.java:36)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:189)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:231)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.updateProfileChangeOperation(MarketplaceWizard.java:611)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.getNextPage(MarketplaceWizard.java:249)
+	at org.eclipse.epp.internal.mpc.ui.wizards.FeatureSelectionWizardPage.getNextPage(FeatureSelectionWizardPage.java:353)
+	at org.eclipse.epp.internal.mpc.ui.wizards.FeatureSelectionWizardPage.getNextPage(FeatureSelectionWizardPage.java:358)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:908)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:428)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:628)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:826)
+	at org.eclipse.jface.window.Window.open(Window.java:802)
+	at org.eclipse.epp.internal.mpc.ui.commands.MarketplaceWizardCommand.execute(MarketplaceWizardCommand.java:191)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:290)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:243)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:224)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:167)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:499)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:850)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.handleWidgetSelection(HandledContributionItem.java:743)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.access$7(HandledContributionItem.java:727)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem$4.handleEvent(HandledContributionItem.java:662)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-19 16:18:24.039
+!MESSAGE No repository found at http://vaadin.com/eclipse/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-19 16:18:40.360
+!MESSAGE No repository found at http://vaadin.com/eclipse/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-19 16:18:43.907
+!MESSAGE No repository found at http://vaadin.com/eclipse/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-19 16:20:16.698
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/X:/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-19 16:20:16.698
+!MESSAGE No repository found at file:/X:/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-19 16:20:27.259
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: HTTP Server Unknown HTTP Response Code (301):http://sourceforge.net/projects/unittestgplugin/files/content.xml
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:192)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:66)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:88)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.eclipse.ecf.filetransfer.BrowseFileTransferException: General connection error with response code=301
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:131)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	... 1 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2016-04-19 16:20:27.259
+!MESSAGE HTTP Server Unknown HTTP Response Code (301):http://sourceforge.net/projects/unittestgplugin/files/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: General connection error with response code=301
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:131)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 org.eclipse.ecf.identity 4 0 2016-04-19 16:20:27.259
+!MESSAGE General connection error with response code=301
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-19 16:21:15.948
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://vaadin.com/eclipse.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.basicRefreshRepository(AbstractRepositoryManager.java:203)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.refreshRepository(ArtifactRepositoryManager.java:108)
+	at org.eclipse.equinox.p2.ui.RepositoryManipulationPage$21.run(RepositoryManipulationPage.java:644)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2016-04-19 16:21:15.948
+!MESSAGE No repository found at http://vaadin.com/eclipse.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-19 16:21:35.406
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://vaadin.com/eclipse.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:653)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-19 16:21:35.406
+!MESSAGE No repository found at http://vaadin.com/eclipse.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-19 16:21:35.421
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/X:/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:653)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-19 16:21:35.421
+!MESSAGE No repository found at file:/X:/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-19 16:21:35.863
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: HTTP Server Unknown HTTP Response Code (301):http://sourceforge.net/projects/unittestgplugin/files/content.xml
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:192)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:66)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:88)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.eclipse.ecf.filetransfer.BrowseFileTransferException: General connection error with response code=301
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:131)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	... 1 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2016-04-19 16:21:35.863
+!MESSAGE HTTP Server Unknown HTTP Response Code (301):http://sourceforge.net/projects/unittestgplugin/files/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: General connection error with response code=301
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:131)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 2 org.eclipse.ecf.identity 4 0 2016-04-19 16:21:35.863
+!MESSAGE General connection error with response code=301
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-19 16:21:47.337
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at http://vaadin.com/eclipse/3.4/features/com.vaadin.integration.eclipse_1.3.1.201012171040.jar.
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:282)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:578)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:474)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteFeaturesAction.perform(RemoteFeaturesAction.java:39)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteUpdateSiteAction.perform(RemoteUpdateSiteAction.java:50)
+	at org.eclipse.equinox.p2.publisher.Publisher$ArtifactProcess.run(Publisher.java:207)
+	at org.eclipse.equinox.p2.publisher.Publisher.publish(Publisher.java:237)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.generateMetadata(UpdateSiteMetadataRepositoryFactory.java:121)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:106)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:59)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.loadMetadataRepository(ProvisioningUI.java:439)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getMetadataRepository(MetadataRepositoryElement.java:120)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.fetchChildren(MetadataRepositoryElement.java:70)
+	at org.eclipse.equinox.internal.p2.ui.model.RemoteQueriedElement.fetchDeferredChildren(RemoteQueriedElement.java:34)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL: http://vaadin.com/eclipse/3.4/features/com.vaadin.integration.eclipse_1.3.1.201012171040.jar
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.getDecompressedStream(UrlConnectionRetrieveFileTransfer.java:542)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.openStreams(UrlConnectionRetrieveFileTransfer.java:312)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:355)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:267)
+	... 20 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2016-04-19 16:21:47.337
+!MESSAGE Unable to read repository at http://vaadin.com/eclipse/3.4/features/com.vaadin.integration.eclipse_1.3.1.201012171040.jar.
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 403 for URL: http://vaadin.com/eclipse/3.4/features/com.vaadin.integration.eclipse_1.3.1.201012171040.jar
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.getDecompressedStream(UrlConnectionRetrieveFileTransfer.java:542)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.openStreams(UrlConnectionRetrieveFileTransfer.java:312)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:355)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:267)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:578)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:474)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteFeaturesAction.perform(RemoteFeaturesAction.java:39)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteUpdateSiteAction.perform(RemoteUpdateSiteAction.java:50)
+	at org.eclipse.equinox.p2.publisher.Publisher$ArtifactProcess.run(Publisher.java:207)
+	at org.eclipse.equinox.p2.publisher.Publisher.publish(Publisher.java:237)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.generateMetadata(UpdateSiteMetadataRepositoryFactory.java:121)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:106)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:59)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.loadMetadataRepository(ProvisioningUI.java:439)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getMetadataRepository(MetadataRepositoryElement.java:120)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.fetchChildren(MetadataRepositoryElement.java:70)
+	at org.eclipse.equinox.internal.p2.ui.model.RemoteQueriedElement.fetchDeferredChildren(RemoteQueriedElement.java:34)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.equinox.p2.updatesite 4 0 2016-04-19 16:21:47.337
+!MESSAGE Error reading feature http://vaadin.com/eclipse/3.4/features/com.vaadin.integration.eclipse_1.3.1.201012171040.jar.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-19 16:21:47.742
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at http://vaadin.com/eclipse/3.4/features/com.vaadin.integration.eclipse.manual_6.6.8.201110031351.jar.
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:282)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:578)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:474)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteFeaturesAction.perform(RemoteFeaturesAction.java:39)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteUpdateSiteAction.perform(RemoteUpdateSiteAction.java:50)
+	at org.eclipse.equinox.p2.publisher.Publisher$ArtifactProcess.run(Publisher.java:207)
+	at org.eclipse.equinox.p2.publisher.Publisher.publish(Publisher.java:237)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.generateMetadata(UpdateSiteMetadataRepositoryFactory.java:121)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:106)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:59)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.loadMetadataRepository(ProvisioningUI.java:439)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getMetadataRepository(MetadataRepositoryElement.java:120)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.fetchChildren(MetadataRepositoryElement.java:70)
+	at org.eclipse.equinox.internal.p2.ui.model.RemoteQueriedElement.fetchDeferredChildren(RemoteQueriedElement.java:34)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL: http://vaadin.com/eclipse/3.4/features/com.vaadin.integration.eclipse.manual_6.6.8.201110031351.jar
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.getDecompressedStream(UrlConnectionRetrieveFileTransfer.java:542)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.openStreams(UrlConnectionRetrieveFileTransfer.java:312)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:355)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:267)
+	... 20 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2016-04-19 16:21:47.742
+!MESSAGE Unable to read repository at http://vaadin.com/eclipse/3.4/features/com.vaadin.integration.eclipse.manual_6.6.8.201110031351.jar.
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 403 for URL: http://vaadin.com/eclipse/3.4/features/com.vaadin.integration.eclipse.manual_6.6.8.201110031351.jar
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.getDecompressedStream(UrlConnectionRetrieveFileTransfer.java:542)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.openStreams(UrlConnectionRetrieveFileTransfer.java:312)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:355)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:267)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:578)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:474)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteFeaturesAction.perform(RemoteFeaturesAction.java:39)
+	at org.eclipse.equinox.internal.p2.updatesite.RemoteUpdateSiteAction.perform(RemoteUpdateSiteAction.java:50)
+	at org.eclipse.equinox.p2.publisher.Publisher$ArtifactProcess.run(Publisher.java:207)
+	at org.eclipse.equinox.p2.publisher.Publisher.publish(Publisher.java:237)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.generateMetadata(UpdateSiteMetadataRepositoryFactory.java:121)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.initializeRepository(UpdateSiteMetadataRepositoryFactory.java:106)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:59)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.loadMetadataRepository(ProvisioningUI.java:439)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getMetadataRepository(MetadataRepositoryElement.java:120)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.fetchChildren(MetadataRepositoryElement.java:70)
+	at org.eclipse.equinox.internal.p2.ui.model.RemoteQueriedElement.fetchDeferredChildren(RemoteQueriedElement.java:34)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.equinox.p2.updatesite 4 0 2016-04-19 16:21:47.742
+!MESSAGE Error reading feature http://vaadin.com/eclipse/3.4/features/com.vaadin.integration.eclipse.manual_6.6.8.201110031351.jar.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 2 0 2016-04-19 16:23:18.913
+!MESSAGE Error parsing metadata repository
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2016-04-19 16:23:18.913
+!MESSAGE Error in file:/C:/Users/ll42079/eclipse-jee-kepler-SR1-win32/eclipse/p2/org.eclipse.equinox.p2.repository/cache/content-100223292.xml at line 24, column 110: Missing required attribute in "required": range
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-19 16:23:55.674
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at http://vaadin.com/eclipse/3.4/features/com.vaadin.integration.eclipse_1.3.1.201012171040.jar.
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:282)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:578)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:474)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.generateArtifactDescriptors(UpdateSiteArtifactRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.initializeRepository(UpdateSiteArtifactRepositoryFactory.java:114)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(UpdateSiteArtifactRepositoryFactory.java:62)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:73)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:160)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:143)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:91)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:104)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:251)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:101)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:75)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:44)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:174)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:79)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL: http://vaadin.com/eclipse/3.4/features/com.vaadin.integration.eclipse_1.3.1.201012171040.jar
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.getDecompressedStream(UrlConnectionRetrieveFileTransfer.java:542)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.openStreams(UrlConnectionRetrieveFileTransfer.java:312)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:355)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:267)
+	... 23 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2016-04-19 16:23:55.674
+!MESSAGE Unable to read repository at http://vaadin.com/eclipse/3.4/features/com.vaadin.integration.eclipse_1.3.1.201012171040.jar.
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 403 for URL: http://vaadin.com/eclipse/3.4/features/com.vaadin.integration.eclipse_1.3.1.201012171040.jar
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.getDecompressedStream(UrlConnectionRetrieveFileTransfer.java:542)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.openStreams(UrlConnectionRetrieveFileTransfer.java:312)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:355)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:267)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:578)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:474)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.generateArtifactDescriptors(UpdateSiteArtifactRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.initializeRepository(UpdateSiteArtifactRepositoryFactory.java:114)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(UpdateSiteArtifactRepositoryFactory.java:62)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:73)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:160)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:143)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:91)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:104)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:251)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:101)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:75)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:44)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:174)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:79)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.equinox.p2.updatesite 4 0 2016-04-19 16:23:55.674
+!MESSAGE Error reading feature http://vaadin.com/eclipse/3.4/features/com.vaadin.integration.eclipse_1.3.1.201012171040.jar.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-19 16:23:56.051
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at http://vaadin.com/eclipse/3.4/features/com.vaadin.integration.eclipse.manual_6.6.8.201110031351.jar.
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:282)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:578)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:474)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.generateArtifactDescriptors(UpdateSiteArtifactRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.initializeRepository(UpdateSiteArtifactRepositoryFactory.java:114)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(UpdateSiteArtifactRepositoryFactory.java:62)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:73)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:160)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:143)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:91)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:104)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:251)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:101)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:75)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:44)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:174)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:79)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL: http://vaadin.com/eclipse/3.4/features/com.vaadin.integration.eclipse.manual_6.6.8.201110031351.jar
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.getDecompressedStream(UrlConnectionRetrieveFileTransfer.java:542)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.openStreams(UrlConnectionRetrieveFileTransfer.java:312)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:355)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:267)
+	... 23 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2016-04-19 16:23:56.051
+!MESSAGE Unable to read repository at http://vaadin.com/eclipse/3.4/features/com.vaadin.integration.eclipse.manual_6.6.8.201110031351.jar.
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 403 for URL: http://vaadin.com/eclipse/3.4/features/com.vaadin.integration.eclipse.manual_6.6.8.201110031351.jar
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.getDecompressedStream(UrlConnectionRetrieveFileTransfer.java:542)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.openStreams(UrlConnectionRetrieveFileTransfer.java:312)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:355)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:267)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:578)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:474)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.generateArtifactDescriptors(UpdateSiteArtifactRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.initializeRepository(UpdateSiteArtifactRepositoryFactory.java:114)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(UpdateSiteArtifactRepositoryFactory.java:62)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:73)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:160)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:143)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:91)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:104)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:251)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:101)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:75)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:44)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:174)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:79)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.equinox.p2.updatesite 4 0 2016-04-19 16:23:56.051
+!MESSAGE Error reading feature http://vaadin.com/eclipse/3.4/features/com.vaadin.integration.eclipse.manual_6.6.8.201110031351.jar.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2016-04-19 16:24:22.112
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2016-04-19 16:24:22.112
+!MESSAGE session context was:(profile=epp.package.jee, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2016-04-19 16:24:22.112
+!MESSAGE Unable to read repository at http://vaadin.com/eclipse/3.5/plugins/com.vaadin.integration.eclipse_2.3.2.201503060752.jar.
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 403 for URL: http://vaadin.com/eclipse/3.5/plugins/com.vaadin.integration.eclipse_2.3.2.201503060752.jar
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.getDecompressedStream(UrlConnectionRetrieveFileTransfer.java:542)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.openStreams(UrlConnectionRetrieveFileTransfer.java:312)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:355)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:668)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:590)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:723)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:287)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:267)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:208)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:138)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:707)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:63)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2016-04-19 16:24:22.112
+!MESSAGE Unable to read repository at http://vaadin.com/eclipse/3.5/features/com.vaadin.integration.eclipse_2.3.2.201503060752.jar.
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 403 for URL: http://vaadin.com/eclipse/3.5/features/com.vaadin.integration.eclipse_2.3.2.201503060752.jar
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.getDecompressedStream(UrlConnectionRetrieveFileTransfer.java:542)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.openStreams(UrlConnectionRetrieveFileTransfer.java:312)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:355)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:668)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:590)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:723)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:287)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:267)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:208)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:138)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:707)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:63)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2016-04-19 16:24:22.112
+!MESSAGE Unable to read repository at http://vaadin.com/eclipse/3.5/plugins/com.vaadin.wysiwyg.eclipse_2.3.2.201503060752.jar.
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 403 for URL: http://vaadin.com/eclipse/3.5/plugins/com.vaadin.wysiwyg.eclipse_2.3.2.201503060752.jar
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.getDecompressedStream(UrlConnectionRetrieveFileTransfer.java:542)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.openStreams(UrlConnectionRetrieveFileTransfer.java:312)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:355)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:668)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:590)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:723)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:287)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:267)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:208)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:138)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:707)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:63)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2016-04-25 08:55:38.082 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_77
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-04-25 08:56:00.775
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-04-25 08:56:00.775
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'M:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 77 2016-04-25 09:03:29.019
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2016-04-25 09:03:29.019
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2016-04-25 09:03:29.019
+!MESSAGE C:\Users\ll42079\Workspace overlaps the workspace location: C:\Users\ll42079\Workspace
+
+!ENTRY org.eclipse.core.resources 4 77 2016-04-25 09:04:14.171
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2016-04-25 09:04:14.171
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2016-04-25 09:04:14.171
+!MESSAGE C:\Users\ll42079\Workspace overlaps the workspace location: C:\Users\ll42079\Workspace
+
+!ENTRY org.eclipse.core.resources 4 77 2016-04-25 09:05:31.863
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2016-04-25 09:05:31.863
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2016-04-25 09:05:31.863
+!MESSAGE C:\Users\ll42079\Workspace overlaps the workspace location: C:\Users\ll42079\Workspace
+
+!ENTRY org.eclipse.core.resources 4 77 2016-04-25 09:07:10.402
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2016-04-25 09:07:10.402
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2016-04-25 09:07:10.402
+!MESSAGE C:\Users\ll42079\Workspace overlaps the workspace location: C:\Users\ll42079\Workspace
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 09:09:40.763
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 09:09:40.763
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 09:13:06.796
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 09:13:06.812
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 09:14:35.895
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 09:14:35.895
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 09:15:45.468
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-amd64.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 09:15:45.468
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-i386.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 09:15:45.468
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-osx.dylib
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 09:15:45.468
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x64.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 09:15:45.468
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x86.dll
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 09:15:46.019
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 09:15:46.019
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 09:15:46.637
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-amd64.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 09:15:46.637
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-i386.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 09:15:46.637
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-osx.dylib
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 09:15:46.653
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x64.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 09:15:46.653
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x86.dll
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 09:24:17.419
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 09:24:17.434
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 10:22:20.894
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 10:22:20.894
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 10:23:47.847
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 10:23:47.847
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 10:35:11.411
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 10:35:11.411
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 10:35:12.622
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 10:35:12.638
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface 2 0 2016-04-25 10:35:29.136
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-25 10:35:29.136
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a20bb8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@765aec,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-25 10:35:29.136
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@afda9a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@829999,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-25 10:35:29.136
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1f0d09c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@eeb936,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-25 10:35:29.136
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3f489e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e90da5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-25 10:35:29.136
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a86e2a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@135d6e5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-25 10:35:29.136
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d1006f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@fbbff7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-25 10:35:29.136
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16331ca,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@174ffc0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-25 10:35:29.136
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.core.ui.command.addPlugin,Add Maven Plugin,
+		Add Maven Plugin,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10187a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.core.runtime.xml,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b6a56f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Character,
+		Go to Matching Character,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@291795,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-25 10:35:29.136
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2b3052,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@91833,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-25 10:35:29.136
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3aed7c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b734a8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-25 10:35:29.136
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@352e8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1611f1c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-25 10:35:29.136
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1152bcd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e84a9a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-25 10:35:29.136
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10c0ef5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d77826,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 10:35:31.282
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-amd64.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 10:35:31.282
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-i386.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 10:35:31.282
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-osx.dylib
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 10:35:31.298
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x64.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 10:35:31.298
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x86.dll
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 10:41:07.915
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 10:41:07.920
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 10:41:09.232
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 10:41:09.237
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 10:48:53.329
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-amd64.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 10:48:53.331
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-i386.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 10:48:53.331
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-osx.dylib
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 10:48:53.354
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x64.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 10:48:53.354
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x86.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 10:51:21.620
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-amd64.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 10:51:21.620
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-i386.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 10:51:21.622
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-osx.dylib
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 10:51:21.630
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x64.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 10:51:21.630
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x86.dll
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 10:54:04.979
+!MESSAGE The POM for org.apache.httpcomponents:httpclient:jar:4.4.4 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 10:54:08.599
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 10:54:08.614
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 10:54:45.255
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 10:54:45.255
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 10:54:46.519
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 10:54:46.519
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 10:54:49.392
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-amd64.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 10:54:49.392
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-i386.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 10:54:49.392
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-osx.dylib
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 10:54:49.392
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x64.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 10:54:49.392
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x86.dll
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:05:24.315
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:05:24.315
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:06:36.435
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:06:36.435
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:10:35.776
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:10:35.776
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:10:50.983
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:10:50.983
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:10:57.287
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:10:57.287
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:11:15.421
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:11:15.421
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:11:20.664
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:11:20.664
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:19:35.655
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-amd64.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:19:35.655
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-i386.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:19:35.655
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-osx.dylib
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:19:35.671
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x64.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:19:35.671
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x86.dll
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:20:49.430
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:20:49.445
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:20:59.205
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:20:59.221
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:21:37.401
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:21:37.401
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:21:42.086
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:21:42.086
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:22:45.381
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:22:45.381
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:24:02.494
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:24:02.494
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:24:03.687
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:24:03.687
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:24:03.718
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-amd64.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:24:03.718
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-i386.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:24:03.718
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-osx.dylib
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:24:03.734
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x64.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:24:03.734
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x86.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:24:12.601
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-amd64.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:24:12.601
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-i386.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:24:12.601
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-osx.dylib
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:24:12.601
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x64.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:24:12.601
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x86.dll
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:26:51.627
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:26:51.627
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:26:52.875
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:26:52.875
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:26:53.655
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-amd64.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:26:53.655
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-i386.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:26:53.655
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-osx.dylib
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:26:53.671
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x64.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:26:53.671
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x86.dll
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:27:25.999
+!MESSAGE The POM for com.fasterxml.jackson:jackson-dataformat-xml:jar:2.6.5 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:27:30.304
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:27:30.304
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:27:32.192
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-amd64.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:27:32.192
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-i386.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:27:32.223
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-osx.dylib
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:27:32.223
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x64.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:27:32.223
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x86.dll
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:28:21.160
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:28:21.160
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:28:22.408
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:28:22.424
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:28:23.126
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-amd64.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:28:23.126
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-i386.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:28:23.126
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-osx.dylib
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:28:23.141
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x64.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:28:23.141
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x86.dll
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:31:18.391
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:31:18.391
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:31:19.577
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:31:19.577
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-amd64.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:31:19.577
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-i386.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:31:19.577
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-osx.dylib
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:31:19.592
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:31:19.592
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x64.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:31:19.592
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x86.dll
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:39:02.971
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 11:39:02.971
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-25 11:39:32.746
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/X:/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-25 11:39:32.746
+!MESSAGE No repository found at file:/X:/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-04-25 11:39:49.822
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://sourceforge.net/projects/unittestgplugin/files/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-04-25 11:39:49.822
+!MESSAGE No repository found at http://sourceforge.net/projects/unittestgplugin/files/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 2 0 2016-04-25 11:40:04.644
+!MESSAGE Error parsing metadata repository
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2016-04-25 11:40:04.644
+!MESSAGE Error in file:/C:/Users/ll42079/eclipse-jee-kepler-SR1-win32/eclipse/p2/org.eclipse.equinox.p2.repository/cache/content-100223292.xml at line 24, column 110: Missing required attribute in "required": range
+!SESSION 2016-04-25 11:45:08.389 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_77
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:45:21.339
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-amd64.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:45:21.344
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-i386.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:45:21.344
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-osx.dylib
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:45:21.349
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x64.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 11:45:21.349
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x86.dll
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-25 11:45:22.681
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-04-25 11:45:22.746
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-04-25 11:45:22.746
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'M:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 0 2016-04-25 11:45:27.926
+!MESSAGE While loading class "com.amazonaws.eclipse.core.AwsToolkitCore", thread "Thread[Worker-1,5,main]" timed out waiting (4978ms) for thread "Thread[Worker-3,5,main]" to finish starting bundle "com.amazonaws.eclipse.core_2.3.1.v201511040938 [1080]". To avoid deadlock, thread "Thread[Worker-1,5,main]" is proceeding but "com.amazonaws.eclipse.core.AwsToolkitCore" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/com.amazonaws.eclipse.core_2.3.1.v201511040938/" by thread "Worker-3".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:298)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:478)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:109)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:35)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:461)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.amazonaws.eclipse.ec2.keypairs.KeyPairManager.convertLegacyPrivateKeyFiles(KeyPairManager.java:242)
+	at com.amazonaws.eclipse.ec2.Ec2Plugin$2.run(Ec2Plugin.java:120)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 17 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:298)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:478)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:109)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:35)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:461)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.amazonaws.eclipse.ec2.keypairs.KeyPairManager.convertLegacyPrivateKeyFiles(KeyPairManager.java:242)
+	at com.amazonaws.eclipse.ec2.Ec2Plugin$2.run(Ec2Plugin.java:120)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-25 11:45:30.312
+!MESSAGE Failed to load credential profiles from (C:\Users\ll42079\.aws\credentials).AWS credential profiles file not found in the given path: C:\Users\ll42079\.aws\credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-25 11:45:30.359
+!MESSAGE Monitoring content of C:\Users\ll42079\.aws\credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-25 11:45:30.421
+!MESSAGE AWS toolkit core plugin initialized after 7740 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-25 11:45:30.421
+!MESSAGE Failed to load credential profiles from (C:\Users\ll42079\.aws\credentials).AWS credential profiles file not found in the given path: C:\Users\ll42079\.aws\credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-25 11:45:30.437
+!MESSAGE No account is configued in the toolkit. Bootstrapping the credentials file at (C:\Users\ll42079\.aws\credentials).
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-25 11:45:30.437
+!MESSAGE Failed to load credential profiles from (C:\Users\ll42079\.aws\credentials).Unable to open the destination file.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-25 11:45:30.437
+!MESSAGE No account could be found. Switching to a temporary account.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-25 11:45:31.247
+!MESSAGE Initialized a new Cognito identity us-east-1:9a58204c-6944-4281-a7bd-33fdefd02253
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 12:14:21.901
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-amd64.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 12:14:21.901
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-i386.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 12:14:21.901
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-osx.dylib
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 12:14:21.916
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x64.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-04-25 12:14:21.932
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x86.dll
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:15:00.522
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:15:00.522
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:15:13.684
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:15:13.684
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:19:01.755
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:19:01.755
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:20:04.626
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:20:04.626
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:22:45.504
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:22:45.504
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:23:34.797
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:23:34.797
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:23:39.167
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:23:39.167
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:24:28.137
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:24:28.137
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:24:47.942
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:24:47.942
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:26:26.607
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:26:26.607
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:27:45.440
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:27:45.440
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:27:53.445
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:27:53.445
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:28:15.324
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:28:15.324
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:29:23.879
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:29:23.879
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:29:43.196
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:29:43.196
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:30:29.678
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:30:29.678
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:31:11.269
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:31:11.269
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:31:20.155
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:31:20.155
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:31:38.477
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:31:38.477
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:32:02.498
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:32:02.498
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:32:08.395
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:32:08.395
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:33:47.517
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:33:47.517
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:39:48.194
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:39:48.194
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:44:34.503
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:44:34.503
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:44:39.810
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:44:39.810
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:47:07.572
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:47:07.587
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:50:28.013
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:50:28.013
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:51:07.148
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:51:07.148
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:52:18.968
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-25 12:52:18.968
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2016-05-01 18:50:07.817 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_77
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-01 18:50:18.531
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-amd64.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-01 18:50:18.547
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-i386.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-01 18:50:18.547
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-osx.dylib
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-01 18:50:18.547
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x64.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-01 18:50:18.547
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x86.dll
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-01 18:50:20.590
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-01 18:50:21.932
+!MESSAGE Failed to load credential profiles from (C:\Users\ll42079\.aws\credentials).AWS credential profiles file not found in the given path: C:\Users\ll42079\.aws\credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-01 18:50:22.041
+!MESSAGE Monitoring content of C:\Users\ll42079\.aws\credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-01 18:50:22.213
+!MESSAGE AWS toolkit core plugin initialized after 1623 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-01 18:50:22.228
+!MESSAGE Found valid identity id cache us-east-1:9a58204c-6944-4281-a7bd-33fdefd02253
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-01 18:50:22.260
+!MESSAGE Failed to load credential profiles from (C:\Users\ll42079\.aws\credentials).AWS credential profiles file not found in the given path: C:\Users\ll42079\.aws\credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-01 18:50:22.275
+!MESSAGE No account is configued in the toolkit. Bootstrapping the credentials file at (C:\Users\ll42079\.aws\credentials).
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-01 18:50:22.275
+!MESSAGE No profile found: default
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-01 18:50:22.291
+!MESSAGE The current accountId is not found in the system. Switching to the default account.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-05-01 18:50:27.150
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-05-01 18:50:27.150
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'M:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-01 19:01:26.618
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-01 19:01:26.618
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2016-05-05 16:13:50.851 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_77
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-05-05 16:14:02.559
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-05-05 16:14:02.559
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ll42079'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.net 1 0 2016-05-05 16:14:02.919
+!MESSAGE System property http.proxyHost is set to llwcfproxy.londonlife.bz but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2016-05-05 16:14:02.919
+!MESSAGE System property http.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2016-05-05 16:14:02.934
+!MESSAGE System property http.proxyHost is set to llwcfproxy.londonlife.bz but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2016-05-05 16:14:02.950
+!MESSAGE System property http.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-05 16:14:03.044
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-amd64.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-05 16:14:03.044
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-i386.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-05 16:14:03.044
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-osx.dylib
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-05 16:14:03.106
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x64.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-05 16:14:03.106
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x86.dll
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-05 16:14:03.762
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY com.amazonaws.eclipse.core 4 0 2016-05-05 16:14:04.509
+!MESSAGE Failed to cache regions file
+!STACK 0
+com.amazonaws.services.s3.model.AmazonS3Exception: Bad Request (Forbidden or unknown protocol) (Service: Amazon S3; Status Code: 400; Error Code: 400 Bad Request (Forbidden or unknown protocol); Request ID: null), S3 Extended Request ID: null
+	at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:1182)
+	at com.amazonaws.http.AmazonHttpClient.executeOneRequest(AmazonHttpClient.java:770)
+	at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:489)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:310)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:3604)
+	at com.amazonaws.services.s3.AmazonS3Client.getObjectMetadata(AmazonS3Client.java:999)
+	at com.amazonaws.services.s3.AmazonS3Client.getObjectMetadata(AmazonS3Client.java:977)
+	at com.amazonaws.eclipse.core.regions.RegionUtils.cacheRegionsFile(RegionUtils.java:290)
+	at com.amazonaws.eclipse.core.regions.RegionUtils.init(RegionUtils.java:235)
+	at com.amazonaws.eclipse.core.AwsToolkitCore.doFullInit(AwsToolkitCore.java:422)
+	at com.amazonaws.eclipse.core.AwsToolkitCore.start(AwsToolkitCore.java:371)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:300)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:478)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:109)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:229)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.WorkbenchPlugin$1.run(WorkbenchPlugin.java:282)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:52)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:278)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.getExecutableExtension(EarlyStartupRunnable.java:117)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$55.run(Workbench.java:2555)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-05 16:14:04.696
+!MESSAGE Monitoring content of C:\Users\ll42079\.aws\credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-05 16:14:04.868
+!MESSAGE AWS toolkit core plugin initialized after 1106 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-05 16:14:04.884
+!MESSAGE Found valid identity id cache us-east-1:9a58204c-6944-4281-a7bd-33fdefd02253
+!SESSION 2016-05-10 18:27:59.231 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_77
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-05-10 18:28:10.644
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-05-10 18:28:10.644
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ll42079'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-10 18:28:11.190
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-amd64.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-10 18:28:11.190
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-i386.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-10 18:28:11.190
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-osx.dylib
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-10 18:28:11.268
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x64.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-10 18:28:11.268
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x86.dll
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-10 18:28:11.767
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-10 18:28:13.327
+!MESSAGE Monitoring content of C:\Users\ll42079\.aws\credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-10 18:28:13.499
+!MESSAGE AWS toolkit core plugin initialized after 1732 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-10 18:28:13.499
+!MESSAGE Found valid identity id cache us-east-1:9a58204c-6944-4281-a7bd-33fdefd02253
+!SESSION 2016-05-10 18:28:19.274 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_77
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-10 18:28:24.302
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-amd64.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-10 18:28:24.318
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-i386.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-10 18:28:24.318
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-osx.dylib
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-10 18:28:24.318
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x64.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-10 18:28:24.318
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x86.dll
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-10 18:28:25.347
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-05-10 18:28:25.363
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-05-10 18:28:25.363
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ll42079'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-10 18:28:26.517
+!MESSAGE Monitoring content of C:\Users\ll42079\.aws\credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-10 18:28:26.580
+!MESSAGE AWS toolkit core plugin initialized after 1233 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-10 18:28:26.580
+!MESSAGE Found valid identity id cache us-east-1:9a58204c-6944-4281-a7bd-33fdefd02253
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-05-10 18:28:53.959
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/X:/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-05-10 18:28:53.959
+!MESSAGE No repository found at file:/X:/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-05-10 18:29:32.919
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://sourceforge.net/projects/unittestgplugin/files/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2016-05-10 18:29:32.919
+!MESSAGE No repository found at http://sourceforge.net/projects/unittestgplugin/files/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 2 0 2016-05-10 18:29:35.400
+!MESSAGE Error parsing metadata repository
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2016-05-10 18:29:35.400
+!MESSAGE Error in file:/C:/Users/ll42079/eclipse-jee-kepler-SR1-win32/eclipse/p2/org.eclipse.equinox.p2.repository/cache/content-100223292.xml at line 24, column 110: Missing required attribute in "required": range
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-05-10 18:33:06.220
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-05-10 18:33:06.220
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-10 18:33:06.220
+!MESSAGE Software being installed: AWS SDK for Android 1.0.0.v201508062254 (com.amazonaws.eclipse.android.sdk.feature.feature.group 1.0.0.v201508062254)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-10 18:33:06.220
+!MESSAGE Missing requirement: AWS SDK for Android 1.0.0.v201508062254 (com.amazonaws.eclipse.android.sdk.feature.feature.group 1.0.0.v201508062254) requires 'com.android.ide.eclipse.adt 18.0.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-05-10 18:33:06.235
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-05-10 18:33:06.235
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-10 18:33:06.235
+!MESSAGE Software being installed: AWS SDK for Android 1.0.0.v201508062254 (com.amazonaws.eclipse.android.sdk.feature.feature.group 1.0.0.v201508062254)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-10 18:33:06.235
+!MESSAGE Missing requirement: AWS SDK for Android 1.0.0.v201508062254 (com.amazonaws.eclipse.android.sdk.feature.feature.group 1.0.0.v201508062254) requires 'com.android.ide.eclipse.adt 18.0.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-05-10 18:33:06.235
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-05-10 18:33:06.235
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-10 18:33:06.235
+!MESSAGE Software being installed: AWS SDK for Android 1.0.0.v201508062254 (com.amazonaws.eclipse.android.sdk.feature.feature.group 1.0.0.v201508062254)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-10 18:33:06.235
+!MESSAGE Missing requirement: AWS SDK for Android 1.0.0.v201508062254 (com.amazonaws.eclipse.android.sdk.feature.feature.group 1.0.0.v201508062254) requires 'com.android.ide.eclipse.adt 18.0.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-05-10 18:33:06.235
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-05-10 18:33:06.235
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-10 18:33:06.235
+!MESSAGE Software being installed: AWS SDK for Android 1.0.0.v201508062254 (com.amazonaws.eclipse.android.sdk.feature.feature.group 1.0.0.v201508062254)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-10 18:33:06.235
+!MESSAGE Missing requirement: AWS SDK for Android 1.0.0.v201508062254 (com.amazonaws.eclipse.android.sdk.feature.feature.group 1.0.0.v201508062254) requires 'com.android.ide.eclipse.adt 18.0.0' but it could not be found
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-10 21:22:09.819
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-amd64.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-10 21:22:09.819
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-i386.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-10 21:22:09.821
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-osx.dylib
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-10 21:22:09.826
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x64.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-10 21:22:09.826
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x86.dll
+!SESSION 2016-05-10 21:26:37.406 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_77
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-10 21:26:46.911
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-amd64.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-10 21:26:46.913
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-linux-i386.so
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-10 21:26:46.913
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\libsqlite4java-osx.dylib
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-10 21:26:46.918
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x64.dll
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-05-10 21:26:46.921
+!MESSAGE Invalid ZIP archive: C:\Users\ll42079\Dynamo\dynamodb_local_2016-04-19\DynamoDBLocal_lib\sqlite4java-win32-x86.dll
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-10 21:26:47.471
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-05-10 21:26:48.279
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-05-10 21:26:48.279
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ll42079'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-10 21:26:48.939
+!MESSAGE Monitoring content of C:\Users\ll42079\.aws\credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-10 21:26:49.004
+!MESSAGE AWS toolkit core plugin initialized after 1533 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-05-10 21:26:49.019
+!MESSAGE Found valid identity id cache us-east-1:9a58204c-6944-4281-a7bd-33fdefd02253

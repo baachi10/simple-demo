@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.AmazonDynamoDB"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient"/>
+<fullyQualifiedTypeName name="com.amazonaws.auth.AWSCredentials"/>
+<fullyQualifiedTypeName name="com.amazonaws.auth.AWSCredentialsProviderChain"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.document.Item"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.document.PrimaryKey"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.model.ListTablesResult"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.document.TableCollection"/>
+</qualifiedTypeNameHistroy>
